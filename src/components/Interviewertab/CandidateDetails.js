@@ -57,7 +57,6 @@ export default function CandidateDetails() {
               <span>📱</span>
               <span>{selectedCandidate.phone || 'N/A'}</span>
             </div>
-          
             <div className="flex items-center space-x-2">
               <span>📅</span>
               <span>{new Date(selectedCandidate.createdAt).toLocaleString()}</span>
@@ -157,7 +156,7 @@ export default function CandidateDetails() {
         <div className="p-6 text-center">
           <div className="text-blue-600 text-4xl mb-2">⏳</div>
           <h3 className="text-lg font-semibold text-green-800 mb-2">Interview In Progress</h3>
-          <p className="text-blue-700">This candidate hasn't completed their interview yet.</p>
+          <p className="text-blue-700">This candidate hasn&apos;t completed their interview yet.</p>
         </div>
       )}
     </div>
