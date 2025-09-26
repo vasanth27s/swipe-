@@ -54,7 +54,7 @@ The app consists of **two tabs**:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/swipe-interview-assistant.git
+git clone https://github.com/vasanth27s/swipe-.git
 
 # Install dependencies
 npm install
