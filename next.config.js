@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   experimental: {
-    appDir: true, // only if using /app
+    appDir: true,  // only if using /app folder
   },
 };
 
